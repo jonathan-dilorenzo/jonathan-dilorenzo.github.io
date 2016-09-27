@@ -10155,7 +10155,7 @@ Elm.Main.make = function (_elm) {
    $Result = Elm.Result.make(_elm),
    $Signal = Elm.Signal.make(_elm);
    var _op = {};
-   var markdown = "\n\n#Molly Q Feldman\n\n##This may work!\nThis is a placeholder atm \n\n\n\n<div class=\"footer\" margin-left=250px>\n  <footer  font-size=10px>\n    CSS adapted from [minimal](https://github.com/orderedlist/minimal); everything else built using [elm](http://elm-lang.org)\n    </footer>\n</div>\n\n";
+   var markdown = "\n\n#Molly Q Feldman\n\n##Today, I made this work properly\n\n\n\n\n<div class=\"footer\" margin-left=250px>\n  <footer  font-size=10px>\n    CSS adapted from [minimal](https://github.com/orderedlist/minimal); everything else built using [elm](http://elm-lang.org)\n    </footer>\n</div>\n\n";
    var main = $Markdown.toHtml(markdown);
    var title = Elm.Native.Port.make(_elm).outbound("title",function (v) {    return v;},"Molly Q Feldman");
    return _elm.Main.values = {_op: _op,main: main,markdown: markdown};
